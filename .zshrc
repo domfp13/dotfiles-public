@@ -79,6 +79,7 @@ plugins=(
  zsh-syntax-highlighting
 )
 
+# Loading oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
 # This will only last children directory
@@ -86,4 +87,9 @@ prompt_dir() {
   prompt_segment blue $CURRENT_FG '%1~'
 }
 
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ll="ls -la"
+alias gbr="git branch | grep -v "master" | xargs git branch -D"
 
