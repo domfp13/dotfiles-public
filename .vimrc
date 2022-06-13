@@ -1,5 +1,5 @@
 " Adding defualt color scheme
-colorscheme delek 
+colorscheme default 
 
 " Adding colors on syntanx
 syntax on
