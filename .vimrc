@@ -1,6 +1,9 @@
 " Adding defualt color scheme
 colorscheme default 
 
+" Setting light as the background color
+set background=light
+
 " Adding colors on syntanx
 syntax on
 
