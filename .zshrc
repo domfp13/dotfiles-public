@@ -92,4 +92,5 @@ prompt_dir() {
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ll="ls -la"
 alias gbr="git branch | grep -v "master" | xargs git branch -D"
+alias dps="docker ps --format 'table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.Names}}'"
 
