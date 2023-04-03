@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Tokyo Night",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#135564",
+        "editor.selectionHighlightBackground": "#135564",
+        "editor.findMatchBackground": "#135564", //Current SEARCH MATCH
+        "editor.findMatchHighlightBackground": "#135564" //Other SEARCH MATCHES
+    },
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "terminal.integrated.cursorBlinking": true,
+    "workbench.activityBar.visible": false
+}
