@@ -40,10 +40,25 @@ packer.init {
 
 -- Install your plugins here
 return packer.startup(function(use)
-  -- My plugins here
+  -- Esentials 
   use "wbthomason/packer.nvim" -- Have packer manage itself
-  use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
+
+  -- Color schemes
+  use("bluz71/vim-nightfly-colors")
+
+  -- tmux & split window navegation
+  use("christoomey/vim-tmux-navigator")
+  use("szw/vim-maximizer") -- maximizes and restores current window
+
+  -- commenting with gc
+  use("numToStr/Comment.nvim")
+
+  -- file explorer
+  use("nvim-tree/nvim-tree.lua")
+
+  -- Other
+  use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
 
   -- Telescope
   use "nvim-telescope/telescope.nvim" -- Installing Telescope
@@ -53,4 +68,5 @@ return packer.startup(function(use)
   if PACKER_BOOTSTRAP then
     require("packer").sync()
   end
-end)
+end
+)
