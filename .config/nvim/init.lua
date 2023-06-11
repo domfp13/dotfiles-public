@@ -8,4 +8,6 @@ require("user.plugins.lualine")
 require("user.plugins.telescope")
 require("user.plugins.nvim-cmp")
 require("user.plugins.lsp.mason")
+require("user.plugins.lsp.lspconfig")
+
 
