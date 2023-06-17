@@ -1,0 +1,26 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "alt+f12",
+        "command": "-editor.action.peekDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "alt+f12",
+        "command": "workbench.action.terminal.focus"
+    },
+    {
+        "key": "shift+cmd+a",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "-workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    }
+]
