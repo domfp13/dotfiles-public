@@ -22,5 +22,52 @@
         "key": "shift+cmd+e",
         "command": "-workbench.view.explorer",
         "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "shift+cmd+s",
+        "command": "workbench.action.toggleStatusbarVisibility"
+    },
+    {
+        "key": "shift+cmd+g",
+        "command": "-workbench.action.terminal.findPrevious",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "shift+cmd+g",
+        "command": "workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm",
+        "when": "workbench.scm.active"
+    },
+    {
+        "key": "cmd+[IntlBackslash]",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus && terminalProcessSupported || terminalFocus && terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "ctrl+alt+cmd+[IntlBackslash]",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus && terminalProcessSupported || terminalFocus && terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "cmd+[IntlBackslash]",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+alt+cmd+[IntlBackslash]",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+[IntlBackslash]",
+        "command": "workbench.action.terminal.splitInstance",
+        "when": "terminalProcessSupported && terminalTabsFocus"
+    },
+    {
+        "key": "ctrl+alt+cmd+[IntlBackslash]",
+        "command": "-workbench.action.terminal.splitInstance",
+        "when": "terminalProcessSupported && terminalTabsFocus"
     }
 ]
