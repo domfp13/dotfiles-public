@@ -69,5 +69,9 @@
         "key": "ctrl+alt+cmd+[IntlBackslash]",
         "command": "-workbench.action.terminal.splitInstance",
         "when": "terminalProcessSupported && terminalTabsFocus"
+    },
+    {
+        "key": "ctrl+b z",
+        "command": "workbench.action.toggleMaximizedPanel"
     }
 ]
