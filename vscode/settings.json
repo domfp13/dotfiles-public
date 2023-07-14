@@ -12,5 +12,12 @@
     "terminal.integrated.cursorBlinking": true,
     "jupyter.interactiveWindow.textEditor.executeSelection": true,
     "editor.inlineSuggest.enabled": true,
-    "workbench.activityBar.visible": false
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false
+    },
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": false
 }
