@@ -11,6 +11,8 @@
     "editor.fontSize": 13,
     "terminal.integrated.cursorBlinking": true,
     "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "editor.insertSpaces": false,
     "editor.inlineSuggest.enabled": true,
+    "workbench.statusBar.visible": false,
     "workbench.activityBar.visible": false
 }
