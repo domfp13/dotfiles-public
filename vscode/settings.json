@@ -14,5 +14,11 @@
     "editor.insertSpaces": false,
     "editor.inlineSuggest.enabled": true,
     "workbench.statusBar.visible": false,
-    "workbench.activityBar.visible": false
+    "workbench.activityBar.visible": false,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false
+    }
 }
