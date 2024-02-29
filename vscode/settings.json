@@ -13,12 +13,12 @@
     "jupyter.interactiveWindow.textEditor.executeSelection": true,
     "editor.insertSpaces": false,
     "editor.inlineSuggest.enabled": true,
-    "workbench.statusBar.visible": false,
-    "workbench.activityBar.visible": false,
     "github.copilot.enable": {
         "*": true,
         "plaintext": true,
         "markdown": false,
         "scminput": false
-    }
+    },
+    "redhat.telemetry.enabled": true,
+    "workbench.statusBar.visible": false
 }
