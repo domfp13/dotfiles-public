@@ -20,5 +20,7 @@
         "scminput": false
     },
     "redhat.telemetry.enabled": true,
-    "workbench.statusBar.visible": false
+    "dev.containers.defaultExtensionsIfInstalledLocally": [],
+    "extensions.ignoreRecommendations": true,
+    "workbench.activityBar.location": "hidden"
 }
