@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Tokyo Night",
     "workbench.colorCustomizations": {
         "editor.selectionBackground": "#135564",
         "editor.selectionHighlightBackground": "#135564",
@@ -22,5 +21,29 @@
     "redhat.telemetry.enabled": true,
     "dev.containers.defaultExtensionsIfInstalledLocally": [],
     "extensions.ignoreRecommendations": true,
+    "background.backgroundOpacity": [
+        0.9,
+        0.9,
+        0.9,
+        0.9
+    ],
+    "background.windowBackgrounds": [
+        "/Users/enriquep/Pictures/Wallpapers/36.png",
+        "/Users/enriquep/Pictures/Wallpapers/60.jpg"
+    ],
+    "background.backgroundBlur": [
+        "2",
+        "0",
+        "0",
+        "0"
+    ],
+    "github.copilot.editor.enableAutoCompletions": true,
+    "snowflake.connectionsConfigFile": "/Users/enriquep/.snowflake/connections.toml",
+    "background.useInvertedOpacity": true,
+    "background.autoInstall": true,
+    "workbench.colorTheme": "Tokyo Night",
+    "gitlens.currentLine.enabled": false,
+    "chat.editing.alwaysSaveWithGeneratedChanges": true,
+    "workbench.statusBar.visible": false,
     "workbench.activityBar.location": "hidden"
 }
