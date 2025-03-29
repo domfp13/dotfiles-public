@@ -73,5 +73,9 @@
     {
         "key": "ctrl+b z",
         "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "cmd+k cmd+z",
+        "command": "explorer.newFile"
     }
 ]

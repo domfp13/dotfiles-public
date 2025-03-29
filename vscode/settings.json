@@ -41,9 +41,13 @@
     "snowflake.connectionsConfigFile": "/Users/enriquep/.snowflake/connections.toml",
     "background.useInvertedOpacity": true,
     "background.autoInstall": true,
-    "workbench.colorTheme": "Tokyo Night",
+    "workbench.colorTheme": "Default Light Modern",
     "gitlens.currentLine.enabled": false,
     "chat.editing.alwaysSaveWithGeneratedChanges": true,
+    "yaml": {
+      "editor.autoIndent": "none"
+    },
+    "remote.autoForwardPortsSource": "hybrid",
     "workbench.statusBar.visible": false,
     "workbench.activityBar.location": "hidden"
 }
