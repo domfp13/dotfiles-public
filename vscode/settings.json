@@ -1,9 +1,9 @@
 {
     "workbench.colorCustomizations": {
-        "editor.selectionBackground": "#135564",
-        "editor.selectionHighlightBackground": "#135564",
-        "editor.findMatchBackground": "#135564", //Current SEARCH MATCH
-        "editor.findMatchHighlightBackground": "#135564" //Other SEARCH MATCHES
+    "editor.selectionBackground": "#4A90E2", // A balanced medium blue
+    "editor.selectionHighlightBackground": "#6BAED6", // Slightly lighter blue for highlights
+    "editor.findMatchBackground": "#FFD580", // Light yellow for current search match
+    "editor.findMatchHighlightBackground": "#FFE4A1" // Softer yellow for other search matches
     },
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
@@ -19,7 +19,6 @@
         "scminput": false
     },
     "redhat.telemetry.enabled": true,
-    "dev.containers.defaultExtensionsIfInstalledLocally": [],
     "extensions.ignoreRecommendations": true,
     "background.backgroundOpacity": [
         0.9,
@@ -37,17 +36,18 @@
         "0",
         "0"
     ],
-    "github.copilot.editor.enableAutoCompletions": true,
     "snowflake.connectionsConfigFile": "/Users/enriquep/.snowflake/connections.toml",
     "background.useInvertedOpacity": true,
     "background.autoInstall": true,
-    "workbench.colorTheme": "Default Light Modern",
+    "workbench.colorTheme": "Tokyo Night",
     "gitlens.currentLine.enabled": false,
     "chat.editing.alwaysSaveWithGeneratedChanges": true,
     "yaml": {
-      "editor.autoIndent": "none"
+        "editor.autoIndent": "none"
     },
     "remote.autoForwardPortsSource": "hybrid",
+    "remote.defaultExtensionsIfInstalledLocally": [],
+    "python.analysis.extraPaths": [],
     "workbench.statusBar.visible": false,
     "workbench.activityBar.location": "hidden"
 }
