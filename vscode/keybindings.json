@@ -77,5 +77,27 @@
     {
         "key": "cmd+k cmd+z",
         "command": "explorer.newFile"
+    },
+    {
+        "key": "alt+cmd+b",
+        "command": "workbench.action.chat.openInSidebar",
+        "when": "!chatViewletVisible"
+    },
+    // 1) Alt+Cmd+B opens chat if hidden, otherwise focuses input
+    {
+        "key": "alt+cmd+b",
+        "command": "workbench.action.chat.openInSidebar",
+        "when": "!chatViewletVisible"
+    },
+    {
+        "key": "alt+cmd+b",
+        "command": "workbench.panel.chat.view.copilot.focus",
+        "when": "chatViewletVisible"
+    },
+    // 2) Alt+Cmd+V hides the auxiliary chat bar and returns focus
+    {
+        "key": "alt+cmd+b",
+        "command": "workbench.action.toggleAuxiliaryBar",
+        "when": "auxiliaryBarVisible"
     }
 ]
