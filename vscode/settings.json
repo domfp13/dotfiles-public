@@ -39,7 +39,6 @@
     "snowflake.connectionsConfigFile": "/Users/enriquep/.snowflake/connections.toml",
     "background.useInvertedOpacity": true,
     "background.autoInstall": true,
-    "workbench.colorTheme": "Tokyo Night",
     "gitlens.currentLine.enabled": false,
     "chat.editing.alwaysSaveWithGeneratedChanges": true,
     "yaml": {
