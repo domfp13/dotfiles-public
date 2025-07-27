@@ -48,6 +48,14 @@
     "remote.autoForwardPortsSource": "hybrid",
     "remote.defaultExtensionsIfInstalledLocally": [],
     "python.analysis.extraPaths": [],
+    "editor.minimap.enabled": false,
+    "scm.workingSets.enabled": "true",
+    "scm.workingSets.default": "allEditors",
+    "workbench.colorTheme": "Tokyo Night",
+    "dbt.dbtPath": "/Users/enriquep/.local/bin/dbt",
+    "window.title": "${dirty}${separator}${rootName}${separator}${appName}",
+    "docker.extension.enableComposeLanguageServer": false,
     "workbench.statusBar.visible": false,
+    "github.copilot.nextEditSuggestions.enabled": true,
     "workbench.activityBar.location": "hidden"
 }
