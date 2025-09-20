@@ -1,7 +1,7 @@
 {
     "workbench.colorCustomizations": {
     "editor.selectionBackground": "#4A90E2", // A balanced medium blue
-    "editor.selectionHighlightBackground": "#6BAED6", // Slightly lighter blue for highlights
+    //"editor.selectionHighlightBackground": "#6BAED6", // Slightly lighter blue for highlights
     "editor.findMatchBackground": "#FFD580", // Light yellow for current search match
     "editor.findMatchHighlightBackground": "#FFE4A1" // Softer yellow for other search matches
     },
@@ -54,7 +54,13 @@
     "dbt.dbtPath": "/Users/enriquep/.local/bin/dbt",
     "window.title": "${dirty}${separator}${rootName}${separator}${appName}",
     "docker.extension.enableComposeLanguageServer": false,
-    "workbench.statusBar.visible": false,
     "github.copilot.nextEditSuggestions.enabled": true,
+    "git.suggestSmartCommit": false,
+    "[jinja-sql]": {
+
+    },
+    "files.associations": {
+        "*.sql": "jinja-sql"
+    },
     "workbench.activityBar.location": "hidden"
 }
